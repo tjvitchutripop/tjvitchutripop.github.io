@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Artificial Intelligence × Robotics Researcher @ <a href="https://virginia.edu">University of Virginia</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: TJ-headshot.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
@@ -14,13 +14,13 @@ profile:
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: false  # includes a list of the newest posts (will set to true once I get a blog going)
+selected_papers: false # includes a list of papers marked as "selected={true}" (will set to true once I have publications 😅)
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm a rising fourth-year undergraduate student at the University of Virginia studying <a href='https://www.cs.virginia.edu/'>computer science<a> + <a href='https://www.philosophy.virginia.edu/'>philosophy</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are primarily in the development and application of machine learning techniques, specifically `reinforcement learning` and `representation learning`, for robotic control. Currently, I work in the <a href='https://www.collabrobotics.com/'>Collaborative Robotics Lab</a> at UVA led by Professor <a href='http://www.tiqbal.com/'>Tariq Iqbal</a>, focusing on reinforcement learning for `human-robot collaboration`. This summer, I will be performing research centered around `robot manipulation tasks` at the <a href='https://www.ri.cmu.edu/'>Carnegie Mellon University Robotics Institute</a> with the <a href='https://r-pad.github.io/'>Robots Perceiving and Doing (R-PAD) Lab</a> led by Professor <a href='https://davheld.github.io/'>David Held</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Aside from my research, I have explored the intersection of policy and science & technology through the <a href='https://engineering.virginia.edu/future-undergrads/academics/policy-internship-program'>UVA-MIT Policy Internship Program</a>, where I interned at the National Science Foundation’s TIP directorate, working on open-sourcing and analyzing data from the first iteration of the <a href='https://new.nsf.gov/funding/initiatives/regional-innovation-engines'>NSF Engines</a> program. I also have industry experience in software engineering and test-driven development through an internship with <a href='https://finsemble.com/'>Finsemble</a>.

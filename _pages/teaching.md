@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: An overview of my teaching-related work...
+description: An overview of my teaching-related experiences...
 nav: true
 nav_order: 4
 ---
@@ -22,4 +22,4 @@ nav_order: 4
 <li>Developed and maintained Policy Internship Program <a href='https://engineering.virginia.edu/future-undergrads/academics/policy-internship-program'>website</a>.</li>
 </div>
 <br>
-<h6>🎤 For more information on my work leading hackathon workshops or teaching middle school speech + debate, please check out the <a href='/outreach'>outreach</a> page.</h6>
+<h6>🎤 For more information on my work leading hackathon workshops or teaching middle school speech + debate, please check out the <a href='/outreach'>outreach</a> page!</h6>

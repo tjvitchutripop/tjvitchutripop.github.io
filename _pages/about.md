@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I'm a first-year PhD student in <a href='https://cpsc.yale.edu'>Computer Science<a> at Yale University performing research in the <a href='https://apollo-lab-yale.github.io'>Applied Planning, Learning, and Optimization (Apollo) Lab</a>, where I am advised by <a href='https://dannyrakita.net'>Daniel Rakita<a>.
 
-My research revolves around developing machine learning algorithms for robot perception and control grounded within the context of `loco-manipulation`, `active vision`, and `continual learning`. 
+My research revolves around developing machine learning algorithms for robot perception and control grounded within the context of `mobile manipulation`, `active vision`, and `continual learning`. 
 
 Previously, I have worked in the <a href='https://www.collabrobotics.com/'>Collaborative Robotics Lab</a> at the <a href='https://virginia.edu'>University of Virginia</a> led by Professor <a href='http://www.tiqbal.com/'>Tariq Iqbal</a>, developing `reinforcement learning` algorithms for dynamic object manipulation. Additionally, I performed `computer vision` research centered around `unsupervised instance segmentation` for robotic manipulation at the <a href='https://www.ri.cmu.edu/'>Carnegie Mellon University Robotics Institute</a> with the <a href='https://r-pad.github.io/'>Robots Perceiving and Doing (R-PAD) Lab</a> led by Professor <a href='https://davheld.github.io/'>David Held</a>.
 

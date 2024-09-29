@@ -3,13 +3,13 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: An overview of my teaching-related experiences...
-nav: true
+nav: false
 nav_order: 4
 ---
 
 <h3>Teaching Assistant Experience:</h3>
 <div>
-<h5>CS 2120 Discrete Mathematics and Theory I ➡️ (Spring 2021 - Present)</h5>
+<h5>CS 2120 Discrete Mathematics and Theory I ➡️ (Spring 2021 - Spring 2024)</h5>
 <li>Planned and co-taught lecture on quantifier logic and entailment to 100+ students.</li>
 <li>Guide and support students with questions on course content during in-class activities, office hours, and after lectures.</li>
 <li>Strategize with professors and other teaching assistants about the most optimal way to deliver class content.</li>

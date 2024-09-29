@@ -3,7 +3,7 @@ layout: page
 permalink: /outreach/
 title: outreach
 description: An overview of my outreach work at both the local Charlottesville and broader STEM community level...
-nav: true
+nav: false
 nav_order: 5
 ---
 <h3><a href='https://hoohacks.io'>HooHacks</a></h3>

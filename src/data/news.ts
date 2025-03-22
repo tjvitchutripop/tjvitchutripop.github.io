@@ -8,6 +8,12 @@ export interface News {
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
   {
+    date: "March 2025",
+    title: "Selected as 2025 FASPE Design & Technology Fellow",
+    description: "I'm excited to share that I have been selected as a 2025 FASPE Design & Technology Fellow! FASPE is a fully-funded intensive program in professional ethics and ethical leadership held over two weeks in Germany and Poland, with a network of over 900 alumni worldwide across six professional disciplines. I look forward to learning a lot and exchanging ideas on ethical decision-making as a fellow!",
+    link: "https://www.faspe-ethics.org/2025-dt-fellows/",
+  },
+  {
     date: "August 2024",
     title: "Starting Ph.D. at Yale!",
     description: "I begin my Ph.D. in Computer Science at Yale University, where I'll be working in the APOLLO Lab led by Daniel Rakita.  I'm excited to continue working on research in robot learning for manipulation!",

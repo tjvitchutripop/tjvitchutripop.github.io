@@ -16,6 +16,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [visibleItems, setVisibleItems] = useState(3);
+  const [isLongDescriptionVisible, setIsLongDescriptionVisible] = useState(false);
 
 
   return (
@@ -41,6 +42,24 @@ export default function Home() {
                   className="font-serif text-m leading-relaxed text-zinc-700 [&_a]:text-orange-600 [&_a:hover]:text-blue-900"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}
                 />
+                {aboutMe.description_long && (
+                  <>
+                    {isLongDescriptionVisible && (
+                      <p
+                        className="mt-6 font-serif text-m leading-relaxed text-zinc-700 [&_a]:text-orange-600 [&_a:hover]:text-blue-900"
+                        dangerouslySetInnerHTML={{ __html: aboutMe.description_long }}
+                      />
+                    )}
+                    <button
+                      type="button"
+                      aria-expanded={isLongDescriptionVisible}
+                      onClick={() => setIsLongDescriptionVisible((visible) => !visible)}
+                      className="mt-6 px-4 py-2 text-sm font-medium text-zinc-700 border border-zinc-300 rounded-md hover:bg-orange-200 transition-colors"
+                    >
+                      {isLongDescriptionVisible ? "Show Less" : "More Info 🔎"}
+                    </button>
+                  </>
+                )}
               </section>
             )}
 

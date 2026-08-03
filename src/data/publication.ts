@@ -54,7 +54,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
-    conference: "In Submission",
+    conference: "Journal of Robotic Surgery",
     title: "AI-Powered Semantic Segmentation Model for Enhanced Ureteral Mapping and Real-Time Instrument Feedback in Robotic Colorectal Surgery",
     authors: "Justin Bader, Xiatao Sun, Tripp Rosenfelt, Alexis Ramirez-Hardy, Netanel Sapir, Rachel Scheub, Teeratham Vitchutripop, Amit Khanna, Haddon Pantel, Daniel Rakita"
   },

@@ -3,10 +3,23 @@ export interface News {
   title: string;
   description: string;
   link?: string;
+  /**
+   * Optional paths (or URLs) for photos shown below this news item.
+   * Put local files in /public and reference them from the site root, e.g.
+   * images: ["/news/faspe-1.jpg", "/news/faspe-2.jpg"].
+   */
+  images?: string[];
 }
 
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
+  {
+    date: "July 2026",
+    title: "Organized Workshop for Yale Pathways to Science",
+    description: "For the second year in a row, I hosted multiple workshop sessions on robotics + AI for Yale Pathways to Science, a summer program for local New Haven high school students interested in STEM.",
+    link: "https://onha.yale.edu/public-schools-and-youth/yale-pathways-to-science",
+    images: ["/news/pathways2026-1.jpg", "/news/pathways2026-2.jpg", "/news/pathways2026-3.jpg"],
+  },
   {
     date: "March 2025",
     title: "Selected as 2025 FASPE Design & Technology Fellow",

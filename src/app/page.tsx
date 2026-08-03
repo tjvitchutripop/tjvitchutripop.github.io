@@ -20,7 +20,7 @@ export default function Home() {
 
 
   return (
-    <div className="min-h-screen bg-[#FAF7EF]" id="about">
+    <div className="min-h-screen bg-[#FAF7EF]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
       <div className="max-w-screen-lg mx-auto px-8 py-20">
         {/* Grid Layout */}
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-24">
             {/* About section is typically first */}
             {aboutMe.description && (
-              <section>
+              <section id="about">
                 <p
                   className="font-serif text-m leading-relaxed text-zinc-700 [&_a]:text-orange-600 [&_a:hover]:text-blue-900"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}

@@ -8,7 +8,11 @@ export function PublicationEntry({
   publication: Publication;
 }) {
   return (
-    <div className="flex flex-col sm:flex-row gap-6">
+    <div
+      className={`flex flex-col gap-6 rounded-xl sm:flex-row ${
+        publication.highlight ? "bg-[#E9E7DC] p-5" : ""
+      }`}
+    >
       {publication.imageUrl && (
         <div className="w-full sm:w-1/4 min-w-[160px] relative">
           <Image

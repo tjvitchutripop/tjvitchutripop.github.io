@@ -38,7 +38,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
-    conference: "In Submission",
+    conference: "Conference on Robot Learning (CoRL)",
     title: "Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient",
     authors: "Haoxiang You, Yilang Liu, Davis Zong, Qian Wang, Teeratham Vitchutripop, Qi Wang, Daniel Rakita, Ian Abraham",
     paperUrl: "https://arxiv.org/abs/2605.26478",

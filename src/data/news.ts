@@ -13,6 +13,12 @@ export interface News {
 
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
+    {
+    date: "August 2026",
+    title: "Selected as Yale Advanced Graduate Leadership Program (AGLP) Fellow",
+    description: "I'm thrilled to share that I have been selected as a Yale AGLP Fellow on the policy track! I'm excited for the opportunity to be up close learning about the intersection of academica and government through this program. ",
+    link: "https://engineering.yale.edu/academic-study/graduate/advanced-graduate-leadership-program",
+  },
   {
     date: "July 2026",
     title: "Organized Workshop for Yale Pathways to Science",
